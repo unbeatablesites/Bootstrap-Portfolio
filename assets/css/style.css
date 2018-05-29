@@ -3,22 +3,26 @@
      padding-right: 0px; 
      padding-left: 0px; 
      background-color: white;
-    
-
-}
+    }
 
 li{
   margin: 0px;
   right;
 }
 
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+
 .row{
 	margin-left: 20px;
+	width: 77%;
 }
 
 .container{
 	background-color: white;
-	width: 100%;
+	width: 70%;
 	padding: 0px;
 }
 
@@ -60,15 +64,14 @@ li{
     color: white;
 }
 
-#al{
-	width: 75%;
-}
+
 
 .navbar-brand {
     background-color: #4aaaa5;
     margin:0px;
     padding-left: 15px;
     padding-right: 15px;
+    color: white;
 }
 
 .navbar{
@@ -82,4 +85,9 @@ li{
 
 .bg-light{
 	background-color: white;
+	background-color: #ffffff!important;
+}
+
+.column{
+	padding: 10px;
 }
