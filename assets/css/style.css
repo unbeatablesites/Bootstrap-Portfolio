@@ -2,12 +2,9 @@
     width: 100%;
      padding-right: 0px; 
      padding-left: 0px; 
+     background-color: white;
     
 
-}
-.bg-light{
-	margin-left: 97px;
-    margin-right: 117px;
 }
 
 li{
@@ -22,11 +19,9 @@ li{
 .container{
 	background-color: white;
 	width: 100%;
+	padding: 0px;
 }
-.icontainer{
-	background-color: white;
-	width: 100%;
-}
+
 
 #floater{
 	float: left;
@@ -62,4 +57,29 @@ li{
     background-color: #666666;
     text-align: center;
     border-top: 10px solid #4aaaa5;
+    color: white;
+}
+
+#al{
+	width: 75%;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    margin:0px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar{
+	padding:0px; 
+	background-color: white;
+}
+
+#navbarNavDropdown{
+	background-color: white;
+}
+
+.bg-light{
+	background-color: white;
 }
