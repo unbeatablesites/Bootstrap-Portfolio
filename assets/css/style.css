@@ -1,141 +1,65 @@
-p, h1, form{
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+.container-fluid {
+    width: 100%;
+     padding-right: 0px; 
+     padding-left: 0px; 
+    
+
+}
+.bg-light{
+	margin-left: 97px;
+    margin-right: 117px;
 }
 
-header{
-   font-family:  'Georgia', Times, Times New Roman, serif;
+li{
+  margin: 0px;
+  right;
 }
 
-body{
-     width: auto;
-     margin:0;
-     padding:0;
-     height:100%;
-     background-color: #cccccc;
+.row{
+	margin-left: 20px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    width: auto;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffffff;
+.container{
+	background-color: white;
+	width: 100%;
+}
+.icontainer{
+	background-color: white;
+	width: 100%;
 }
 
-li {
-    float: right;
-}
-
-li a {
-    display: block;
-    color: #777777;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-#logo{
+#floater{
 	float: left;
-    color: white;
-    text-align: center;
-    padding: 20px 40px 20px 40px;
-    text-decoration: none;
-    list-style-type: none;
-    margin-left: 0px;
-    background-color: #4aaaa5;
+}
+
+#align{
+	margin-top: 45px;
+	padding-bottom: 1px;
+}
+
+.col-md-12{
+	padding-top: 20px;
+	color: #4aaaa5;		
+}
+.col-md-9{
+	padding-bottom: 20px;
+	margin-bottom: 20px:		
+}
+
+#port{
+	margin-top: 0px;
+	margin-bottom: 20px;
+	margin-right: 20px;
 
 }
 
-#wbg{
-    background-color: #ffffff;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 0px;
-    width: 960px;
-    padding: 25px;
-    height: 100%
-
-}
-
-#cnav{
-   margin: 0 auto;
-    width: 960px;
-    padding: 0px; 
-}
-
-#port,
-#float{
-    float: left;
-    margin-right: 20px;
-}
-
-#wHead{
-    background-color: #ffffff;
-    width: 100%;
-    margin: 0px;
-}
-
-p{
-    line-height: 1.6;
-}
-
-h1{
-    color: #4aaaa5;
-}
-
-#foot{
-    background-color: #666666;
-    width: 100%;
-    text-align: center;
-    margin-top: 194px; 
-    margin-bottom: 0px;
-    height:auto;
-    border-top: 10px solid #4aaaa5;position: fixed;
+.footer {
+    position: absolute;
     bottom: 0;
-    right: 0;
-    padding-top: 20px;
-}      
-
-
-.clear{
-    clear: both;
-}
-
-input,
-textarea {
     width: 100%;
-}
-
-#btn{
-     color: white;
+    height: 60px;
+    line-height: 60px;
+    background-color: #666666;
     text-align: center;
-    text-decoration: none;
-    list-style-type: none;
-    margin-left: 0px;
-    background-color: #4aaaa5
-}
-
-#Wtext{
-    color: #ffffff;
-}
-
-.column {
-  float: left;
-    padding: 5px;
-    margin: 20px;
-}
-* {
-    box-sizing: border-box;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-#small{
-    width: 700px;
+    border-top: 10px solid #4aaaa5;
 }
