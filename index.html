@@ -1,86 +1,847 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="icon" href="image/fabicon.png" type="image/png">
+    <title>Frank C Uzoka Jr.</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/elagent-icon/style.css">
+    <link rel="stylesheet" href="vendors/animate-css/animate.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/slick/slick-theme.css">
+    <link rel="stylesheet" href="vendors/slick/slick.css">
+    <link rel="stylesheet" href="vendors/video-player/css/jquery.mb.YTPlayer.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
 
-    <title>About Me</title>
-  </head>
-  <body style="background: url(assets/images/texture.png)"> 
-  <body>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-
-
-    <div class="container-fluid">
-
-    
-
-                            <div id="app" class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Frank Uzoka</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div id="navbarNavDropdown" class="navbar-collapse collapse">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-
-            </ul>
-            
+<body>
+    <div class="sampleContainer">
+        <div class="loader">
+            <div class="ld_container">
+                <div class="circle lg">
+                    <div class="circle md">
+                        <div class="circle sm">
+                            <div class="circle smlr">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span id="loading">Loading...</span>
+            </div>
         </div>
-    </nav>
-</div>
-</nav>
-
-</div>
-
-  <!-- Our rows function in containers (grid created). -->
-  <div class="container" id="align">
-
-          <h1 class="col-md-12 col-sm-6">About Me</h1>
-
-          <hr>
-    <div class="row">
-
-
-      
-    
-        
-      
-
-      <div class="floater">
-
-        <img id="port" src="assets/images/Frank_Uzoka.jpg" width="150px" height="150px">
-        Frank was born and raised in the Atlanta area and has been in the eye care industry for over 10 years. Frank is passionate about eyewear and serves as the optician at Windsor Eye Care. He helps patients choose the right frame for their style while also meeting their comfort needs. Frank is also highly skilled in manufacturing glasses in our in-house laboratory. Patients love his contagious smile and down to earth personality.
-      </div>
-
     </div>
+    <div class="page">
+        <header class="header_area">
+            <div class="main_menu pt-triggers">
+                <div class="logo">
+                    <a href="#"><img src="image/Logo.png" alt="logo"></a>
+                </div>
+                <ul class="nav menu">
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="header_bottom">
+                <a href="mailto:frank.uzoka@gmail.com">
+                    <h6>frank.uzoka@gmail.com</h6>
+                </a>
+                <p>FrankUzoka.com © 2018. All Rights Reserved.</p>
+            </div>
+        </header>
+        <div class="mobile_header mobile_visible">
+            <div class="logo">
+                <a href="#"><img src="image/Logo.png" alt="logo"></a>
+            </div>
+            <a class="menu-toggle">
+              <i class="fa fa-bars"></i>
+              <i class="fa fa-times"></i>
+            </a>
+        </div>
+        <div class="main_body">
+            <div class="page_wrapper">
+                <div class="subpages" id="pt-main">
+                    <section class="pt-page pt-page-1 home_area pt-page-current" id="home">
+                        <div class="dot_shape">
+                            <div class="shap shape_one"></div>
+                            <div class="shap shape_two"></div>
+                            <div class="shap shape_three"></div>
+                            <div class="shap shape_four"></div>
+                            <div class="shap shape_five"></div>
+                            <div class="shap shape_six"></div>
+                            <div class="triangle shape_seven"></div>
+                            <div class="triangle shape_eight"></div>
+                            <div class="triangle shape_nine"></div>
+                        </div>
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <div class="personal_img img_two">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="personal_details">
+                                        <h6 class="text_upparcase">Hello! World</h6>
+                                        <h1 class="text_upparcase">Frank C. Uzoka Jr</h1>
+                                        <h5 class="text_upparcase">Full Stack Web Designer & App Developer</h5>
+                                        <ul class="list_style social_icon">
+                                            <li><a href="https://github.com/unbeatablesites"><i class="fa fa-github-alt"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="pt-page pt-page-2 about_area" id="about">
+                        <div class="about_left">
+                            <div class="about_content">
+                                <h2 class="title mb_50">About Me</h2>
+                                <p>Hi, I'm <span>Frank Uzoka</span> a Full Stack Web Developer with a background in Information Technology and life-long dedication to learning. Effective at combining creativity and problem solving to develop user-friendly applications. Known among peers for leadership, strong wit and attention to detail no matter the complexity of the project. Looking for a position where I can contribute to the success of a project
+and expand existing coding skills.
+                            </div>
+                        </div>
+                        <div class="about_right about_img d-flex align-items-center">
+                        </div>
+                    </section>
+                    <section class="pt-page pt-page-3 portfolio_area sec_pad" id="portfolio">
+                        <div class="container">
+                            <div class="section_title mb_50">
+                                <h2 class="title mb_0">What i Done</h2>
+                            </div>
+                            <ul class="list_style gallery-filter">
+                                <li class="active" data-filter="*">all</li>
+                                <li data-filter=".project1">project 1</li>
+                                <li data-filter=".project2">project 2</li>
+                                <li data-filter=".project3">project 3</li>
+                                <li data-filter=".javascript">javascript</li>
+                                <li data-filter=".JQUERY">jquery</li>
+                                <li data-filter=".TIMERS">timers</li>
+                                <li data-filter=".AJAX">ajax</li>
+                                <li data-filter=".fire">fire base</li>
+                                <li data-filter=".node">node.js</li>
+                                <li data-filter=".JS-CONSTRUCTORS">js-constructors</li>
+                                <li data-filter=".my-sql">my-sql</li>
+                                <li data-filter=".EXPRESS">express</li>
+                                <li data-filter=".HANDLEBARS">handlebars</li>
+                                <li data-filter=".SEQUELIZE">sequelize</li>
+                                <li data-filter=".MONGO-MONGOOSE">mongo-mongoose</li>
+                                <li data-filter=".REACT">react</li>
+                            </ul>
+                            <div id="gallery" class="row portfolio_gallery">
+                                <!-- ################################################################## -->
+                                <div class="col-lg-4 col-md-6 col-xs-12 gallery-item project1">
+                                    <div class="gallery_info">
+                                        <div class="gallery_img">
+                                            <img src="image/portfolio-img1.jpg" alt="">
+                                            <div class="hover_content">
+                                                <div class="social_link">
+                                                    <a href="https://unbeatablesites.github.io/Project1/">Click<i class="fa fa-share-alt"></i></a>
+                                                </div>
+                                                <div class="hover_text">
+                                                    <h3>Project 1</h3>
+                                                    <div class="border_line"></div>
+                                                    <div class="category">
+                                                        <a href="#">Api's ,</a>
+                                                        <a href="#">Javascript ,</a>
+                                                        <a href="#">jquery </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ###################################################################### -->
+                            
+                                <!-- ################################################################## -->
+                                <div class="col-lg-4 col-md-6 col-xs-12 gallery-item project2">
+                                    <div class="gallery_info">
+                                        <div class="gallery_img">
+                                            <img src="image/portfolio-img2.jpg" alt="">
+                                            <div class="hover_content">
+                                                <div class="social_link">
+                                                    <a href="https://github.com/unbeatablesites/Project2">Click<i class="fa fa-share-alt"></i></a>
+                                                </div>
 
-  </div>
-  
-  <footer class="footer">
-      <div>
-        <span>Copyright C</span>
-      </div>
-    </footer>
+                                                <div class="hover_text">
+                                                    <h3>Project 2</h3>
+                                                    <div class="border_line"></div>
+                                                    <div class="category">
+                                                        <a href="#">Node.js ,</a>
+                                                        <a href="#">Express.js ,</a>
+                                                        <a href="#">Handlebars ,</a>
+                                                        <a href="#">Sequelize </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ###################################################################### -->
+                                
+                                <!-- ################################################################## -->
+                                <div class="col-lg-4 col-md-6 col-xs-12 gallery-item project3">
+                                    <div class="gallery_info">
+                                        <div class="gallery_img">
+                                            <img src="image/portfolio-img3.jpg" alt="">
+                                            <div class="hover_content">
+                                                <div class="social_link">
+                                                    <a href="https://github.com/unbeatablesites/Project-3">Click<i class="fa fa-share-alt"></i></a>
+                                                </div>
 
+                                                <div class="hover_text">
+                                                    <h3>Project 3</h3>
+                                                    <div class="border_line"></div>
+                                                    <div class="category">
+                                                        <a href="#">Node.js ,</a>
+                                                        <a href="#">React ,</a>
+                                                        <a href="#">Mongodb ,</a>
+                                                        <a href="#">Heroku </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ###################################################################### -->
+                                
+                                <!-- ################################################################## -->
+                                <div class="col-lg-4 col-md-6 col-xs-12 gallery-item javascript">
+                                    <div class="gallery_info">
+                                        <div class="gallery_img">
+                                            <img src="image/portfolio-img4.jpg" alt="">
+                                            <div class="hover_content">
+                                                <div class="social_link">
+                                                    <a href="https://unbeatablesites.github.io/Hangman-game/">Click<i class="fa fa-share-alt"></i></a>
+                                                </div>
 
+                                                <div class="hover_text">
+                                                    <h3>Hangman game</h3>
+                                                    <div class="border_line"></div>
+                                                    <div class="category">
+                                                        <a href="#">Bootstrap ,</a>
+                                                        <a href="#">CSS ,</a>
+                                                        <a href="#">Javascript ,</a>
+                                                        <a href="#">jquery </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ###################################################################### -->
+                
+                                <!-- ################################################################## -->
+                                <div class="col-lg-4 col-md-6 col-xs-12 gallery-item JQUERY">
+                                    <div class="gallery_info">
+                                        <div class="gallery_img">
+                                            <img src="image/portfolio-img5.jpg" alt="">
+                                            <div class="hover_content">
+                                                <div class="social_link">
+                                                    <a href="https://unbeatablesites.github.io/Star-Wars-RPG/">Click<i class="fa fa-share-alt"></i></a>
+                                                </div>
 
-  </body>
+                                                <div class="hover_text">
+                                                    <h3>Star Wars RPG</h3>
+                                                    <div class="border_line"></div>
+                                                    <div class="category">
+                                                        <a href="#">Bootstrap ,</a>
+                                                        <a href="#">CSS ,</a>
+                                                        <a href="#">Javascript ,</a>
+                                                        <a href="#">jquery </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ###################################################################### -->
+                                <!-- ################################################################## -->
+                                <div class="col-lg-4 col-md-6 col-xs-12 gallery-item TIMERS">
+                                    <div class="gallery_info">
+                                        <div class="gallery_img">
+                                            <img src="image/portfolio-img6.jpg" alt="">
+                                            <div class="hover_content">
+                                                <div class="social_link">
+                                                    <a href="https://unbeatablesites.github.io/Totally-Trivial-Trivia/">Click<i class="fa fa-share-alt"></i></a>
+                                                </div>
+
+                                                <div class="hover_text">
+                                                    <h3>Totally Trivial Trivia!</h3>
+                                                    <div class="border_line"></div>
+                                                    <div class="category">
+                                                        <a href="#">Bootstrap ,</a>
+                                                        <a href="#">CSS ,</a>
+                                                        <a href="#">Javascript ,</a>
+                                                        <a href="#">jquery </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ###################################################################### -->
+                                
+                                <!-- ################################################################## -->
+                                <div class="col-lg-4 col-md-6 col-xs-12 gallery-item AJAX">
+                                    <div class="gallery_info">
+                                        <div class="gallery_img">
+                                            <img src="image/portfolio-img7.jpg" alt="">
+                                            <div class="hover_content">
+                                                <div class="social_link">
+                                                    <a href="https://unbeatablesites.github.io/GIPHY-API-Homework/">Click<i class="fa fa-share-alt"></i></a>
+                                                </div>
+
+                                                <div class="hover_text">
+                                                    <h3>Giphy API</h3>
+                                                    <div class="border_line"></div>
+                                                    <div class="category">
+                                                        <a href="#">Ajax ,</a>
+                                                        <a href="#">CSS ,</a>
+                                                        <a href="#">Javascript ,</a>
+                                                        <a href="#">jquery </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ###################################################################### -->
+                                
+                                <!-- ################################################################## -->
+                                <div class="col-lg-4 col-md-6 col-xs-12 gallery-item fire">
+                                    <div class="gallery_info">
+                                        <div class="gallery_img">
+                                            <img src="image/portfolio-img8.jpg" alt="">
+                                            <div class="hover_content">
+                                                <div class="social_link">
+                                                    <a href="https://unbeatablesites.github.io/Train_Time/">Click<i class="fa fa-share-alt"></i></a>
+                                                </div>
+
+                                                <div class="hover_text">
+                                                    <h3>Train Time</h3>
+                                                    <div class="border_line"></div>
+                                                    <div class="category">
+                                                        <a href="#">Ajax ,</a>
+                                                        <a href="#">CSS ,</a>
+                                                        <a href="#">Javascript ,</a>
+                                                        <a href="#">jquery </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ###################################################################### -->
+                                
+                                <!-- ################################################################## -->
+                                <div class="col-lg-4 col-md-6 col-xs-12 gallery-item node">
+                                    <div class="gallery_info">
+                                        <div class="gallery_img">
+                                            <img src="image/portfolio-img9.jpg" alt="">
+                                            <div class="hover_content">
+                                                <div class="social_link">
+                                                    <a href="https://github.com/unbeatablesites/Liri">Click<i class="fa fa-share-alt"></i></a>
+                                                </div>
+
+                                                <div class="hover_text">
+                                                    <h3>Liri</h3>
+                                                    <div class="border_line"></div>
+                                                    <div class="category">
+                                                        <a href="#">Ajax ,</a>
+                                                        <a href="#">CSS ,</a>
+                                                        <a href="#">Javascript ,</a>
+                                                        <a href="#">jquery </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ###################################################################### -->
+                                
+                                <!-- ################################################################## -->
+                                <div class="col-lg-4 col-md-6 col-xs-12 gallery-item JS-CONSTRUCTORS">
+                                    <div class="gallery_info">
+                                        <div class="gallery_img">
+                                            <img src="image/portfolio-img10.jpg" alt="">
+                                            <div class="hover_content">
+                                                <div class="social_link">
+                                                    <a href="https://github.com/unbeatablesites/Node-Word-Guessing-Game/blob/master/README.md">Click<i class="fa fa-share-alt"></i></a>
+                                                </div>
+
+                                                <div class="hover_text">
+                                                    <h3>(node.js console)Word Guessing Game</h3>
+                                                    <div class="border_line"></div>
+                                                    <div class="category">
+                                                        <a href="#">Ajax ,</a>
+                                                        <a href="#">CSS ,</a>
+                                                        <a href="#">Javascript ,</a>
+                                                        <a href="#">jquery </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ###################################################################### -->
+                                
+                                <!-- ################################################################## -->
+                                <div class="col-lg-4 col-md-6 col-xs-12 gallery-item my-sql">
+                                    <div class="gallery_info">
+                                        <div class="gallery_img">
+                                            <img src="image/portfolio-img11.jpg" alt="">
+                                            <div class="hover_content">
+                                                <div class="social_link">
+                                                    <a href="https://github.com/unbeatablesites/Bamazon_">Click<i class="fa fa-share-alt"></i></a>
+                                                </div>
+
+                                                <div class="hover_text">
+                                                    <h3>Bamazon Console</h3>
+                                                    <div class="border_line"></div>
+                                                    <div class="category">
+                                                        <a href="#">Ajax ,</a>
+                                                        <a href="#">CSS ,</a>
+                                                        <a href="#">Javascript ,</a>
+                                                        <a href="#">jquery </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ###################################################################### -->
+                                
+                                <!-- ################################################################## -->
+                                <div class="col-lg-4 col-md-6 col-xs-12 gallery-item EXPRESS">
+                                    <div class="gallery_info">
+                                        <div class="gallery_img">
+                                            <img src="image/portfolio-img12.jpg" alt="">
+                                            <div class="hover_content">
+                                                <div class="social_link">
+                                                    <a href="https://frozen-earth-85611.herokuapp.com/">Click<i class="fa fa-share-alt"></i></a>
+                                                </div>
+
+                                                <div class="hover_text">
+                                                    <h3>Friend Finder(Dating APP)</h3>
+                                                    <div class="border_line"></div>
+                                                    <div class="category">
+                                                        <a href="#">Ajax ,</a>
+                                                        <a href="#">CSS ,</a>
+                                                        <a href="#">Javascript ,</a>
+                                                        <a href="#">jquery </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ###################################################################### -->
+                               
+                                <!-- ################################################################## -->
+                                <div class="col-lg-4 col-md-6 col-xs-12 gallery-item SEQUELIZE">
+                                    <div class="gallery_info">
+                                        <div class="gallery_img">
+                                            <img src="image/portfolio-img14.jpg" alt="">
+                                            <div class="hover_content">
+                                                <div class="social_link">
+                                                    <a href="#">Click<i class="fa fa-share-alt"></i></a>
+                                                </div>
+
+                                                <div class="hover_text">
+                                                    <h3>Eat The Burger App</h3>
+                                                    <div class="border_line"></div>
+                                                    <div class="category">
+                                                        <a href="#">Ajax ,</a>
+                                                        <a href="#">CSS ,</a>
+                                                        <a href="#">Javascript ,</a>
+                                                        <a href="#">jquery </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ###################################################################### -->                               
+                                <!-- ################################################################## -->
+                                <div class="col-lg-4 col-md-6 col-xs-12 gallery-item HANDLEBARS">
+                                    <div class="gallery_info">
+                                        <div class="gallery_img">
+                                            <img src="image/portfolio-img14.jpg" alt="">
+                                            <div class="hover_content">
+                                                <div class="social_link">
+                                                    <a href="#">Click<i class="fa fa-share-alt"></i></a>
+                                                </div>
+
+                                                <div class="hover_text">
+                                                    <h3>Eat The Burger App</h3>
+                                                    <div class="border_line"></div>
+                                                    <div class="category">
+                                                        <a href="#">Ajax ,</a>
+                                                        <a href="#">CSS ,</a>
+                                                        <a href="#">Javascript ,</a>
+                                                        <a href="#">jquery </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ###################################################################### -->
+                                
+                                <!-- ################################################################## -->
+                                <div class="col-lg-4 col-md-6 col-xs-12 gallery-item MONGO-MONGOOSE">
+                                    <div class="gallery_info">
+                                        <div class="gallery_img">
+                                            <img src="image/portfolio-img15.jpg" alt="">
+                                            <div class="hover_content">
+                                                <div class="social_link">
+                                                    <a href="https://atl-rocks-solid.herokuapp.com/">Click<i class="fa fa-share-alt"></i></a>
+                                                </div>
+
+                                                <div class="hover_text">
+                                                    <h3>Ny Times Mongo Scraper(Express)</h3>
+                                                    <div class="border_line"></div>
+                                                    <div class="category">
+                                                        <a href="#">Ajax ,</a>
+                                                        <a href="#">CSS ,</a>
+                                                        <a href="#">Javascript ,</a>
+                                                        <a href="#">jquery </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ###################################################################### -->
+                                 
+                                <!-- ################################################################## -->
+                                <div class="col-lg-4 col-md-6 col-xs-12 gallery-item REACT">
+                                    <div class="gallery_info">
+                                        <div class="gallery_img">
+                                            <img src="image/portfolio-img16.jpg" alt="">
+                                            <div class="hover_content">
+                                                <div class="social_link">
+                                                    <a href="https://powerful-tundra-61456.herokuapp.com/">Click<i class="fa fa-share-alt"></i></a>
+                                                </div>
+
+                                                <div class="hover_text">
+                                                    <h3>New York Time Article Search(react)</h3>
+                                                    <div class="border_line"></div>
+                                                    <div class="category">
+                                                        <a href="#">Ajax ,</a>
+                                                        <a href="#">CSS ,</a>
+                                                        <a href="#">Javascript ,</a>
+                                                        <a href="#">jquery </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ###################################################################### -->
+
+                                <!-- ################################################################## -->
+                                <div class="col-lg-4 col-md-6 col-xs-12 gallery-item REACT">
+                                    <div class="gallery_info">
+                                        <div class="gallery_img">
+                                            <img src="image/portfolio-img17.jpg" alt="">
+                                            <div class="hover_content">
+                                                <div class="social_link">
+                                                    <a href="https://unbeatablesites.github.io/Clicky-Game/">Click<i class="fa fa-share-alt"></i></a>
+                                                </div>
+
+                                                <div class="hover_text">
+                                                    <h3>Simpsons Memory Game(react)</h3>
+                                                    <div class="border_line"></div>
+                                                    <div class="category">
+                                                        <a href="#">Ajax ,</a>
+                                                        <a href="#">CSS ,</a>
+                                                        <a href="#">Javascript ,</a>
+                                                        <a href="#">jquery </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ###################################################################### -->
+                            </div>
+                            <div class="text-right">
+                                <a href="#" class="m_btn">Read More</a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="pt-page pt-page-4 service_area sec_pad" id="service">
+                        <div class="container">
+                            <div class="section_title">
+                                <h2 class="title mb_0">my service</h2>
+                            </div>
+                            <div class="row service_info">
+                                <div class="col-lg-5 col-md-6 mb_100">
+                                    <div class="service_item">
+                                        <div class="service_content">
+                                            <div class="round_icon">
+                                                <i class="fa fa-area-chart" aria-hidden="true"></i>
+                                            </div>
+                                            <a href="#">
+                                                <h3>Great Web Design</h3>
+                                            </a>
+                                            <p>Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit donec sollicitudin molestie.</p>
+                                            <a href="#" class="read_btn">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-md-6 mb_100">
+                                    <div class="service_item">
+                                        <div class="round_icon">
+                                            <i class="fa fa-cogs" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="service_content">
+                                            <a href="#">
+                                                <h3>Web development</h3>
+                                            </a>
+                                            <p>Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit donec sollicitudin molestie.</p>
+                                            <a href="#" class="read_btn">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-md-6 mb_100">
+                                    <div class="service_item">
+                                        <div class="round_icon">
+                                            <i class="icon_easel" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="service_content">
+                                            <a href="#">
+                                                <h3>Marketing</h3>
+                                            </a>
+                                            <p>Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit donec sollicitudin molestie.</p>
+                                            <a href="#" class="read_btn">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-md-6 mb_100">
+                                    <div class="service_item">
+                                        <div class="round_icon">
+                                            <i class="icon_puzzle" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="service_content">
+                                            <a href="#">
+                                                <h3>App Design</h3>
+                                            </a>
+                                            <p>Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit donec sollicitudin molestie.</p>
+                                            <a href="#" class="read_btn">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="pt-page pt-page-5 blog_area sec_pad" id="blog">
+                        <div class="container">
+                            <div class="section_title mb_50">
+                                <h2 class="title mb_0">Recent Story</h2>
+                                <p>Here you see our latest story, that we publish for you,so you are most welcome to read these article,<br> and obviously you will improve your skill.</p>
+                            </div>
+                            <div class="blog_slider owl-carousel">
+                                <div class="blog_item">
+                                    <div class="blog_img">
+                                        <img src="image/post1.png" alt="">
+                                    </div>
+                                    <div class="post_content">
+                                        <div class="post_category">
+                                            <a href="#">Design</a>
+                                            <a href="#">Creative</a>
+                                        </div>
+                                        <a href="#">
+                                            <h3>How to Create Great Logo for Your Business</h3>
+                                        </a>
+                                        <p>Are you guys think design come from hand, no, absoluate ly not, you are wrong. design always come from mind, so must be a designer need spend...</p>
+                                        <a href="#" class="m_btn">More</a>
+                                    </div>
+                                    <div class="post_author d-flex">
+                                        <div class="author_img d-flex">
+                                            <img class="rounded-circle" src="image/author_img1.jpg" alt="author">
+                                            <h6 class="d-flex align-self-center">Mr. Expert</h6>
+                                        </div>
+                                        <div class="post_date ml-auto align-self-center">
+                                            <a href="#">14 April, 2017</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog_item">
+                                    <div class="blog_img">
+                                        <img src="image/post2.jpg" alt="">
+                                    </div>
+                                    <div class="post_content">
+                                        <div class="post_category">
+                                            <a href="#">Design</a>
+                                            <a href="#">Creative</a>
+                                        </div>
+                                        <a href="#">
+                                            <h3>Innovative Ways to Increase Brand.</h3>
+                                        </a>
+                                        <p>Are you guys think design come from hand, no, absoluate ly not, you are wrong. design always come from mind, so must be a designer need spend...</p>
+                                        <a href="#" class="m_btn">More</a>
+                                    </div>
+                                    <div class="post_author d-flex">
+                                        <div class="author_img d-flex">
+                                            <img class="rounded-circle" src="image/author_img1.jpg" alt="author">
+                                            <h6 class="d-flex align-self-center">Smith</h6>
+                                        </div>
+                                        <div class="post_date ml-auto align-self-center">
+                                            <a href="#">14 April, 2017</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog_item">
+                                    <div class="blog_img">
+                                        <img src="image/post1.png" alt="">
+                                    </div>
+                                    <div class="post_content">
+                                        <div class="post_category">
+                                            <a href="#">Design</a>
+                                            <a href="#">Creative</a>
+                                        </div>
+                                        <a href="#">
+                                            <h3>How to Autumn Clean Your Design Career?</h3>
+                                        </a>
+                                        <p>Are you guys think design come from hand, no, absoluate ly not, you are wrong. design always come from mind, so must be a designer need spend...</p>
+                                        <a href="#" class="m_btn">More</a>
+                                    </div>
+                                    <div class="post_author d-flex">
+                                        <div class="author_img d-flex">
+                                            <img class="rounded-circle" src="image/author_img1.jpg" alt="author">
+                                            <h6 class="d-flex align-self-center">Jhone Deo</h6>
+                                        </div>
+                                        <div class="post_date ml-auto align-self-center">
+                                            <a href="#">20 April, 2017</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog_item">
+                                    <div class="blog_img">
+                                        <img src="image/post1.png" alt="">
+                                    </div>
+                                    <div class="post_content">
+                                        <div class="post_category">
+                                            <a href="#">Design</a>
+                                            <a href="#">Creative</a>
+                                        </div>
+                                        <a href="#">
+                                            <h3>Design alwayes come from head.</h3>
+                                        </a>
+                                        <p>Are you guys think design come from hand, no, absoluate ly not, you are wrong. design always come from mind, so must be a designer need spend...</p>
+                                        <a href="#" class="m_btn">More</a>
+                                    </div>
+                                    <div class="post_author d-flex">
+                                        <div class="author_img d-flex">
+                                            <img class="rounded-circle" src="image/author_img1.jpg" alt="author">
+                                            <h6 class="d-flex align-self-center">Mr. Rony</h6>
+                                        </div>
+                                        <div class="post_date ml-auto align-self-center">
+                                            <a href="#">18 April, 2018</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-right">
+                                <a href="#" class="m_btn">More</a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="pt-page pt-page-6 contact_area" id="contact">
+                        <!--================Map Area =================-->
+                        <div id="mapBox" class="mapBox" data-lat="39.4001994" data-lon="-84.5617397" data-zoom="15" data-marker="image/location.png" data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia." data-mlat="39.400199" data-mlon="-84.56174">
+                        </div>
+                        <!--================End Map Area =================-->
+                        <div class="contact">
+                            <div class="container">
+                                <div class="section_title mb_50">
+                                    <h2 class="title mb_0">Contact With Us</h2>
+                                </div>
+                                <div class="row flex-row-reverse">
+                                    <div class="col-lg-5">
+                                        <div class="contact_info">
+                                            <div class="sec_contact_title">
+                                                <h4 class="contact_title">Get IN Touch</h4>
+                                                <p>If you want to work with us, you can contact with me.</p>
+                                            </div>
+                                            <div class="info_item">
+                                                <h4 class="contact_title">Address</h4>
+                                                <p>12378 South Main Street,<br> New York, NY 777777. </p>
+                                            </div>
+                                            <div class="info_item">
+                                                <h4 class="contact_title">Contact Information</h4>
+                                                <p><span>Email: </span><a href="#">info@domain.com,</a><a href="#">contact@domain.com</a></p>
+                                                <p><span>Phone: </span><a href="#">+964 241 5746 769,</a><a href="#">+8801748911008</a></p>
+                                            </div>
+                                            <div class="social_links">
+                                                <h4 class="contact_title">Follow Us</h4>
+                                                <a href="#" class="social_facebook"></a>
+                                                <a href="#" class="social_tumblr"></a>
+                                                <a href="#" class="social_linkedin"></a>
+                                                <a href="#" class="social_vimeo"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                                            <div class="form-group col-md-6">
+                                                <input type="text" class="form-control" id="name" name="name" placeholder="Your name">
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <input type="text" class="form-control" id="email" name="email" placeholder="Email address">
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Moblie">
+                                            </div>
+                                            <div class="form-group col-md-12">
+                                                <textarea class="form-control" name="message" id="message" rows="1" placeholder="Type your valuable message"></textarea>
+                                            </div>
+                                            <div class="form-group col-md-12">
+                                                <button type="submit" value="submit" class="btn submit_dark">Send Your Message</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer_bottom text-center">
+                            Made with <i class="fa fa-heart-o"></i> by <a href="https://themeforest.net/user/dreemsthemes/portfolio">Blazethemez</a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="vendors/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="vendors/isotope/isotope-min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="vendors/animate-css/wow.min.js"></script>
+    <script src="vendors/slick/slick.min.js"></script>
+    <script src="vendors/video-player/jquery.mb.YTPlayer.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJnKEvlwpyjXfS_h-J1Cne2fPMqeb44Mk&callback=initMap"></script>
+    <script src="js/gmaps.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/custom.js"></script>
+</body>
 
 </html>
