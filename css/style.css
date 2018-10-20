@@ -35,7 +35,8 @@ Table of Content:
 /*Color Variables*/
 /*=================== fonts ====================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:500,700|Raleway:400,500,600,700");
-.col-md-offset-right-1, .col-lg-offset-right-1 {
+.col-md-offset-right-1,
+.col-lg-offset-right-1 {
   margin-right: 8.33333333%;
 }
 
@@ -54,7 +55,8 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none;
   outline: none;
 }
@@ -85,7 +87,12 @@ body {
   height: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   color: #252a32;
@@ -199,9 +206,9 @@ button:focus {
 
 .main_menu .menu li a:hover {
   padding-left: 5px;
-  -webkit-transition: color 0.3s ,all 0.4s linear;
-  -o-transition: color 0.3s ,all 0.4s linear;
-  transition: color 0.3s ,all 0.4s linear;
+  -webkit-transition: color 0.3s, all 0.4s linear;
+  -o-transition: color 0.3s, all 0.4s linear;
+  transition: color 0.3s, all 0.4s linear;
   color: #4f6df5;
 }
 
@@ -422,7 +429,7 @@ button:focus {
 }
 
 .header_area_two .header_social:before {
-  content: '';
+  content: "";
   position: absolute;
   top: -90px;
   width: 1px;
@@ -479,7 +486,8 @@ button:focus {
 }
 
 /*=========== pre loader css =========*/
-.sampleContainer, .loader {
+.sampleContainer,
+.loader {
   height: 100%;
 }
 
@@ -511,19 +519,19 @@ button:focus {
 }
 
 .lg {
-  background-color: #2E57AF;
+  background-color: #2e57af;
   width: 50px;
   height: 50px;
 }
 
 .md {
-  background-color: #103EA0;
+  background-color: #103ea0;
   width: 40px;
   height: 40px;
 }
 
 .sm {
-  background-color: #0B307F;
+  background-color: #0b307f;
   width: 30px;
   height: 30px;
 }
@@ -602,7 +610,8 @@ button:focus {
   transform-style: preserve-3d;
 }
 
-.pt-page-current, .no-js .pt-page {
+.pt-page-current,
+.no-js .pt-page {
   visibility: visible;
   z-index: 90;
   opacity: 1;
@@ -614,39 +623,39 @@ button:focus {
   -webkit-transform-origin: 0% 50%;
   -ms-transform-origin: 0% 50%;
   transform-origin: 0% 50%;
-  -webkit-animation: rotateCubeLeftIn .6s both ease-in;
-  animation: rotateCubeLeftIn .6s both ease-in;
+  -webkit-animation: rotateCubeLeftIn 0.6s both ease-in;
+  animation: rotateCubeLeftIn 0.6s both ease-in;
 }
 
 .pt-page-2.pt-page-current {
   -webkit-transform-origin: 150% 50%;
   -ms-transform-origin: 150% 50%;
   transform-origin: 150% 50%;
-  -webkit-animation: rotateSidesIn .5s both ease-out;
-  animation: rotateSidesIn .5s both ease-out;
+  -webkit-animation: rotateSidesIn 0.5s both ease-out;
+  animation: rotateSidesIn 0.5s both ease-out;
 }
 
 .pt-page-3.pt-page-current {
   -webkit-transform-origin: 50% 0%;
   -ms-transform-origin: 50% 0%;
   transform-origin: 50% 0%;
-  -webkit-animation: rotateCubeTopIn .6s both ease-in;
-  animation: rotateCubeTopIn .6s both ease-in;
+  -webkit-animation: rotateCubeTopIn 0.6s both ease-in;
+  animation: rotateCubeTopIn 0.6s both ease-in;
 }
 
 .pt-page-4.pt-page-current {
-  -webkit-animation: moveFromTop .6s ease both;
-  animation: moveFromTop .6s ease both;
+  -webkit-animation: moveFromTop 0.6s ease both;
+  animation: moveFromTop 0.6s ease both;
 }
 
 .pt-page-5.pt-page-current {
-  -webkit-animation: moveFromLeftFade .7s ease both;
-  animation: moveFromLeftFade .7s ease both;
+  -webkit-animation: moveFromLeftFade 0.7s ease both;
+  animation: moveFromLeftFade 0.7s ease both;
 }
 
 .pt-page-6.pt-page-current {
-  -webkit-animation: moveFromRightFade .7s ease both;
-  animation: moveFromRightFade .7s ease both;
+  -webkit-animation: moveFromRightFade 0.7s ease both;
+  animation: moveFromRightFade 0.7s ease both;
 }
 
 .main_body {
@@ -786,13 +795,16 @@ button:focus {
   animation: moveUp 2s infinite alternate;
 }
 
-.dot_shape .shape_two, .dot_shape .shape_three, .dot_shape .shape_four {
+.dot_shape .shape_two,
+.dot_shape .shape_three,
+.dot_shape .shape_four {
   width: 30px;
   height: 30px;
-  opacity: 0.10;
+  opacity: 0.1;
 }
 
-.dot_shape .shape_five, .dot_shape .shape_six {
+.dot_shape .shape_five,
+.dot_shape .shape_six {
   width: 16px;
   height: 16px;
 }
@@ -855,19 +867,19 @@ button:focus {
   -webkit-transform: rotate(-40deg);
   -ms-transform: rotate(-40deg);
   transform: rotate(-40deg);
-  border-color: transparent transparent #f54feb  transparent;
+  border-color: transparent transparent #f54feb transparent;
 }
 
 .dot_shape .shape_eight {
   border-width: 0 15px 25px 15px;
-  border-color: transparent transparent #ff8a00  transparent;
+  border-color: transparent transparent #ff8a00 transparent;
   right: 14%;
   bottom: 67%;
 }
 
 .dot_shape .shape_nine {
   border-width: 0 15px 25px 15px;
-  border-color: transparent transparent #00a61f  transparent;
+  border-color: transparent transparent #00a61f transparent;
   right: 28%;
   bottom: 32%;
 }
@@ -905,7 +917,9 @@ button:focus {
   min-height: 100vh;
 }
 
-.home_video_area .personal_details h6, .home_video_area .personal_details h1, .home_video_area .personal_details h5 {
+.home_video_area .personal_details h6,
+.home_video_area .personal_details h1,
+.home_video_area .personal_details h5 {
   color: #fff;
 }
 
@@ -1180,7 +1194,7 @@ button:focus {
 }
 
 .slider_img img {
-  opacity: 0.20;
+  opacity: 0.2;
   max-width: 100%;
   width: 100%;
   max-height: 100%;
@@ -1286,7 +1300,7 @@ button:focus {
 }
 
 .slideshow_slider .item img {
-  opacity: 0.20;
+  opacity: 0.2;
 }
 
 /*---------------------------------------------------- */
@@ -1359,7 +1373,8 @@ button:focus {
   cursor: pointer;
 }
 
-.gallery-filter li:hover, .gallery-filter li.active {
+.gallery-filter li:hover,
+.gallery-filter li.active {
   background: #fff;
   color: #4f6df5;
   -webkit-box-shadow: 0px 6px 10px 0px rgba(0, 6, 33, 0.1);
@@ -1395,9 +1410,9 @@ button:focus {
   -webkit-transform: translateY(10px);
   -ms-transform: translateY(10px);
   transform: translateY(10px);
-  -webkit-transition: all .5s;
-  -o-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
   background: rgba(37, 42, 50, 0.7);
   opacity: 0;
 }
@@ -1417,7 +1432,12 @@ button:focus {
   text-align: center;
 }
 
-.portfolio_gallery .gallery_info .gallery_img .hover_content .social_link a:hover {
+.portfolio_gallery
+  .gallery_info
+  .gallery_img
+  .hover_content
+  .social_link
+  a:hover {
   background: #fff;
   color: #4f6df5;
 }
@@ -1435,12 +1455,17 @@ button:focus {
   -webkit-transform: translateY(-15px);
   -ms-transform: translateY(-15px);
   transform: translateY(-15px);
-  -webkit-transition: all .5s;
-  -o-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
-.portfolio_gallery .gallery_info .gallery_img .hover_content .hover_text .border_line {
+.portfolio_gallery
+  .gallery_info
+  .gallery_img
+  .hover_content
+  .hover_text
+  .border_line {
   width: 220px;
   height: 1px;
   background: rgba(255, 255, 255, 0.2);
@@ -1448,7 +1473,13 @@ button:focus {
   margin-bottom: 4px;
 }
 
-.portfolio_gallery .gallery_info .gallery_img .hover_content .hover_text .category a {
+.portfolio_gallery
+  .gallery_info
+  .gallery_img
+  .hover_content
+  .hover_text
+  .category
+  a {
   font-size: 14px;
 }
 
@@ -1459,10 +1490,20 @@ button:focus {
   transform: translateY(0);
 }
 
-.portfolio_gallery .gallery_info:hover .gallery_img .hover_content .hover_text h3 {
+.portfolio_gallery
+  .gallery_info:hover
+  .gallery_img
+  .hover_content
+  .hover_text
+  h3 {
   -webkit-transform: translateY(0);
   -ms-transform: translateY(0);
   transform: translateY(0);
+}
+
+.gallery_img img {
+  height: 350px;
+  width: auto;
 }
 
 .m_btn {
@@ -1490,7 +1531,7 @@ button:focus {
 /*----------------------------------------------------*/
 /*===============service_area css ============*/
 .service_area {
-  background: url("../image/service-bg.jpg") no-repeat scroll center 0/cover;
+  background: url("../image/service-bg.jpg") no-repeat scroll center 0 / cover;
 }
 
 .service_info {
