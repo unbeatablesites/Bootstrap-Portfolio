@@ -21,6 +21,7 @@
     $link = '#';
 
 	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
+	$body .= "<table style='width: 100%;'>";
 
 
 ?>
