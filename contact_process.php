@@ -24,6 +24,7 @@
 	$body .= "<table style='width: 100%;'>";
 	$body .= "<thead style='text-align: center;'><tr><td style='border:none;' colspan='2'>";
 	$body .= "<a href='{$link}'><img src='{$logo}' alt=''></a><br><br>";
+	$body .= "</td></tr></thead><tbody><tr>";
 
 
 ?>
