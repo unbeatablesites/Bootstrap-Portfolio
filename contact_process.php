@@ -18,6 +18,7 @@
     $subject = "You have a message from your Express.";
 
     $logo = 'http://wethemez.com/demo/express/img/logo.png';
+    $link = '#';
 
 
 
