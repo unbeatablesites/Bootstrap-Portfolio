@@ -20,6 +20,7 @@
     $logo = 'http://wethemez.com/demo/express/img/logo.png';
     $link = '#';
 
+	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
 
 
 ?>
