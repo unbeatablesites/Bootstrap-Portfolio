@@ -29,6 +29,7 @@
 	$body .= "<td style='border:none;'><strong>Email:</strong> {$from}</td>";
 	$body .= "</tr>";
 	$body .= "<tr><td style='border:none;'><strong>Subject:</strong> {$csubject}</td></tr>";
+	$body .= "<tr><td></td></tr>";
 
 
 ?>
