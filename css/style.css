@@ -1758,6 +1758,7 @@ button:focus {
 }
 
 .contact {
+  padding-left: 200px;
   padding-top: 60px;
   padding-bottom: 100px;
 }
@@ -1840,7 +1841,7 @@ button:focus {
 }
 
 .contact_info p {
-  font-size: 14px;
+  font-size: 22px;
   line-height: 24px;
   color: #70757f;
   margin: 0px;
@@ -1873,10 +1874,10 @@ button:focus {
 }
 
 .contact_title {
-  font: 700 16px/28px "Raleway", sans-serif;
+  font: 700 20px/48px "Raleway", sans-serif;
   color: #252a32;
   text-transform: uppercase;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 
 .footer_bottom {
