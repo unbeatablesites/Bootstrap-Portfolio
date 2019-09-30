@@ -47,8 +47,9 @@
         width: calc(50% + 00px);
     }
     .about_right {
+        margin-left: -70px;
         width: calc(50% - 00px);
-        margin-top: 77px;
+        margin-top: 110px;
     }
 }
 
